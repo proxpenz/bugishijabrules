@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>⚡RULEZ BUGISHIJAB⚡</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Orbitron:wght@500&family=Rubik+80s+Fade&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: linear-gradient(135deg, #ffe0f0, #ffccff, #ccffff, #e0e0ff);
+      background-size: 400% 400%;
+      animation: bgMove 10s infinite alternate;
+      color: #000;
+      font-family: 'Comic Sans MS', 'Pacifico', cursive;
+    }
+
+    @keyframes bgMove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+
+    .header-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      text-align: center;
+      animation: pulse 2s infinite;
+    }
+
+    .header-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 20px #ff00d4;
+      border: 4px dashed #ff00d4;
+    }
+
+    .header-text h1 {
+      font-size: 2.8rem;
+      font-family: 'Rubik 80s Fade', cursive;
+      background: linear-gradient(90deg, #ff00d4, #00ffe1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 1s ease-in-out infinite alternate;
+      letter-spacing: 2px;
+    }
+
+    .header-text p {
+      font-size: 1.1rem;
+      color: #7700ff;
+      font-style: italic;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px #ff00d4, 0 0 10px #ff00d4, 0 0 15px #ff00d4;
+      }
+      to {
+        text-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1, 0 0 40px #00ffe1;
+      }
+    }
+
+    .motto {
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin: 1.5rem auto 2rem;
+      background: linear-gradient(90deg, #ff3399, #ff66ff, #33ccff);
+      color: white;
+      padding: 1rem;
+      border-radius: 20px;
+      width: fit-content;
+      max-width: 90%;
+      box-shadow: 0 0 15px #ff66ff;
+      animation: blink 2s infinite alternate;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; transform: scale(1); }
+      100% { opacity: 0.6; transform: scale(1.05); }
+    }
+
+    .rules-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .rule-section {
+      margin-bottom: 2.5rem;
+      padding: 1rem;
+      border: 2px dotted #ff66ff;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 15px;
+    }
+
+    .rule-section h2 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: #ff00d4;
+      animation: wiggle 1s infinite alternate;
+    }
+
+    @keyframes wiggle {
+      0% { transform: rotate(-1deg); }
+      100% { transform: rotate(1deg); }
+    }
+
+    .rule-section ul {
+      list-style: square;
+      padding-left: 2rem;
+      color: #330066;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .rule-section ul li:hover {
+      color: #ff00ff;
+      transform: scale(1.05);
+      transition: all 0.3s ease;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #660099;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      .header-text h1 {
+        font-size: 2rem;
+      }
+
+      .rule-section h2 {
+        font-size: 1rem;
+      }
+
+      .motto {
+        font-size: 1rem;
+      }
+
+      .header-img {
+        width: 90px;
+        height: 90px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-flex">
+    <img src="https://mms.img.susercontent.com/id-11134004-7r98o-lktane6sdy4q86" alt="Foto Tim Bugishijab" class="header-img">
+    <div class="header-text">
+      <h1>⚡RULEZ BUGISHIJAB⚡</h1>
+      <p>Kerja penuh gaya, semangat luar biasa.</p>
+    </div>
+  </div>
+
+  <div class="motto">
+    "Bekerja dengan hati, tampil bersinar tiap hari ✨"
+  </div>
+
+  <div class="rules-container">
+
+    <div class="rule-section">
+      <h2>✨ Etika Kerja</h2>
+      <ul>
+        <li>Dateng jangan telat dong, malu ama jam digital!</li>
+        <li>Deadline bukan dead aja, tapi selesaiin cepet dan ciamik!</li>
+        <li>Kejujuran tuh fashion utama kita 💅</li>
+        <li>Profesional, bukan perfeksional — tapi tetep keren!</li>
+      </ul>
+    </div>
+
+    <div class="rule-section">
+      <h2>🗣️ Komunikasi</h2>
+      <ul>
+        <li>Ngobrol itu harus, tapi jangan julid ya!</li>
+        <li>Kritik? Kuy diterima, jangan baper ✨</li>
+        <li>Tiap chat = positive vibes only 💌</li>
+        <li>Ngasih info? Bukan clue, tapi jelas kayak status doi!</li>
+      </ul>
+    </div>
+
+    <div class="rule-section">
+      <h2>👗 Penampilan</h2>
+      <ul>
+        <li>OOTD? Pastinya stylish dan syar’i!</li>
+        <li>Kita semua influencer Bugishijab 😎</li>
+        <li>Kebersihan = kesucian + kenyamanan 😇</li>
+      </ul>
+    </div>
+
+    <div class="rule-section">
+      <h2>💞 Budaya Tim</h2>
+      <ul>
+        <li>Saling bantu, jangan ghosting temen kerja 😭</li>
+        <li>Celebrate bareng, gagal bareng juga gapapa 🥹</li>
+        <li>Bikin vibes tim itu estetik + asik 🤝</li>
+        <li>Kerja seolah brand ini punya kita semua 🏆</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Bugishijab. Dibuat dengan glitter, kerja keras, dan emoji ✨🔥💖
+  </footer>
+
+</body>
+</html>
